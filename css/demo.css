@@ -1,0 +1,33 @@
+#landingPage {
+  background-color: #ccc;
+}
+
+div.pic {
+  width: 60%;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  transform: scale(0.5);
+  opacity: 0;
+  transition: 0.3s;
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
+div.pic:hover .overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.overlay h5 {
+  letter-spacing: 3px;
+}
+.overlay h4 {
+  
+}
+
+button {
+  font-size: 16px;
+}
